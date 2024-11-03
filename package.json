@@ -1,0 +1,16 @@
+{
+  "name": "@frostfall/workflow-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/index.js",
+  "scripts": {
+    "watch": "tsc --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.8.7",
+    "typescript": "^5.6.3"
+  }
+}
