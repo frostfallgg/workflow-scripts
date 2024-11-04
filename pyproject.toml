@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "worklow-scripts"
+name = "rbxts_py"
 version = "0.1.0"
 description = ""
 authors = ["Matt Ashpole <m.d.ashpole@gmail.com>"]
@@ -8,13 +8,14 @@ packages = [{ include = "workflow_scripts", from = "src" }]
 
 
 [tool.poetry.dependencies]
-python = "^3.13"
+python = ">=3.13,<3.14"
 rich = "^13.9.4"
 click = "^8.1.7"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.7.2"
 pytest = "^8.3.3"
+pyinstaller = "^6.11.0"
 
 [tool.ruff]
 fix = true
