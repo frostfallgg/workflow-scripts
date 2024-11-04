@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "rbxts_py"
+name = "rbxts_package_tools"
 version = "0.1.0"
 description = ""
 authors = ["Matt Ashpole <m.d.ashpole@gmail.com>"]
