@@ -6,13 +6,14 @@
 		}
 	],
 	"settings": {
-		"[typescript]": {
+		"[python]": {
 			"files.eol": "\n",
 			"editor.codeActionsOnSave": {
-				"source.organizeImports.biome": "always",
-				"source.fixAll.biome": "always",
+				"source.fixAll.ruff": "always",
+				"source.organizeImports.ruff": "always",
+				"source.convertImportFormat": "always",
 			},
-			"editor.defaultFormatter": "biomejs.biome",
+			"editor.defaultFormatter": "charliermarsh.ruff",
 		},
 		"files.exclude": {
 			"**/.git": true,
@@ -23,6 +24,6 @@
 			"**/Thumbs.db": true,
 			"**/__pycache__": true
 		},
-		"typescript.preferences.preferTypeOnlyAutoImports": true,
+		"python.analysis.typeCheckingMode": "standard",
 	}
 }
